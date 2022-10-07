@@ -1,3 +1,4 @@
+/*
 const { resolve } = require('path');
 const download = require('download');
 
@@ -15,3 +16,4 @@ async function handleDownload() {
 }
 
 handleDownload().catch(console.error);
+*/
