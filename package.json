@@ -12,11 +12,12 @@
 		"update": "yarn upgrade-interactive --latest",
 		"prebuild": "yarn clean && yarn lint",
 		"build": "webpack",
+		"nbuild": "webpack",
 		"clean": "rimraf dist",
 		"watch": "tsc -b src -w",
 		"commit": "git-cz",
 		"cz": "git-cz",
-		"prepare": "yarn build",
+		"prepare": "yarn nbuild",
 		"postinstall": "yarn update:coc",
 		"update:coc": "node ./scripts/update_coc.js"
 	},
