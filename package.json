@@ -16,7 +16,7 @@
 		"watch": "tsc -b src -w",
 		"commit": "git-cz",
 		"cz": "git-cz",
-		"prepare": "husky install .github/husky",
+		"prepare": "",
 		"postinstall": "yarn update:coc",
 		"update:coc": "node ./scripts/update_coc.js"
 	},
